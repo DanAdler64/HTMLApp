@@ -7,6 +7,8 @@ import android.webkit.WebView;
 import android.widget.ProgressBar;
 
 import com.onyxlabs.app.htmlapp.R;
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -37,6 +39,7 @@ public class MainActivity extends ActionBarActivity {
 protected void onCreate(Bundle savedInstanceState) {
 
     super.onCreate(savedInstanceState);
+    Fabric.with(this, new Crashlytics());
 
     setContentView(R.layout.activity_main);
 

@@ -1,73 +1,64 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!--TITLE-->
-    	<title>Safe Hybrid App</title>
+    <title>Bootstrap 101 Template</title>
+
+    <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS Theme -->
+        <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1 0, maximum-scale=1.0, user-scalable=no" />
-
-    <!--  CSS  -->
-
-        <!--Import materialize.css-->
-            <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-        <!--Import styles.css-->
-     	    <link rel="stylesheet" href="css/styles.css">
-
-    <!--  JavaScript  -->
-
-    <!--Import jQuery.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!--Import Bridge.js-->
-        <script type="text/javascript" src=" http://www-old.getbridge.com/js/bridge.min.js "></script>
-    <!--Import materialize.js-->
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-
-    <script>
-      function login(){}
-    </script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
 
-<nav>
+    <!-- Slide Out Side Menu-->
+    <nav>
+        <ul class="right hide-on-med-down">
 
-    <ul class="right hide-on-med-and-down">
-        <li><a href="#!">Login</a></li>
-        <li><a href="#!">Second Sidebar Link</a></li>
-    </ul>
+            <li><a href="#!">Sign Out</a></li>
 
-    <ul id="slide-out" class="side-nav">
-        <li><a href="#!">Login</a></li>
-        <li><a href="#!">Second Sidebar Link</a></li>
-    </ul>
+        </ul>
+        <ul id="slide-out" class="side-nav">
+            <li><a href="#!">Profile</a></li>
+            <li><a href="#!">Notifications</a></li>
+            <li><a href="#!">Upload Shot</a></li>
 
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            <li><a href="#!">Shots</a></li>
+            <li><a href="#!">Explore</a></li>
+            <li><a href="#!">Designers</a></li>
+            <li><a href="#!">Teams</a></li>
+            <li><a href="#!">Jobs</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
+    </nav>
 
-</nav>
 
 
-<div id="login">
 
-          <h1>LOGIN</h1>
 
-          <form>
-
-  <div class="label">username</div>
-  <input type="text" name="username"><br/>
-  <div class="label">password</div>
-  <input type="password" name="lastname"><br/><br/>
-  <button onclick="login()" type="button" class="btn">Login</button>
-
-          </form>
-
-     </div>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="jquery-2.1.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/custom.js"></script>
 </body>
-
 </html>
