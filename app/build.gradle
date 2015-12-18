@@ -16,8 +16,8 @@ repositories {
 
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 'Google Inc.:Google APIs:23'
+    buildToolsVersion '23.0.1'
 
     defaultConfig {
         applicationId "com.onyxlabs.app.htmlapp"
